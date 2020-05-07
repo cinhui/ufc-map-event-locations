@@ -60,8 +60,42 @@
         }
 
         .mapboxgl-popup {
-            max-width: 400px;
-            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            padding-bottom: 50px;
+        }
+
+        .mapboxgl-popup-close-button {
+            display: none;
+        }
+        .mapboxgl-popup-content {
+            font: 400 12px/20px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+            padding: 0;
+            width: 180px;
+        }
+        .mapboxgl-popup-content-wrapper {
+            padding: 1%;
+        }
+        .mapboxgl-popup-content h3 {
+            background: #f0a500;
+            color: #fff;
+            margin: 0;
+            display: block;
+            padding: 10px;
+            border-radius: 3px 3px 0 0;
+            font-weight: 700;
+            margin-top: -15px;
+            text-align: center;
+        }
+
+        .mapboxgl-popup-content h4 {
+            margin: 0;
+            display: block;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+            font-weight: 400;
+        }
+
+        .mapboxgl-popup-content div {
+            padding: 10px;
         }
 
         text {
@@ -119,7 +153,8 @@
         map.on('load', function () {
 
             d3.json(
-                'events_df.geojson',
+                // 'events_df.geojson',
+                'https://raw.githubusercontent.com/cinhui/ufc-map-event-locations/master/events_df.geojson',
                 function (err, data) {
                     if (err) throw err;
 
@@ -132,7 +167,6 @@
                         event_location.push(d.properties.Location)
                         event_coord.push(new mapboxgl.LngLat(d.geometry.coordinates[0], d.geometry.coordinates[1]))
 
-                        // new Date(d.properties.Date).getFullYear();
                         // console.log(d.properties.id + " " + d.properties.filteroption)
                         return d;
                     });
@@ -196,8 +230,9 @@
                         // console.log(event_coord[id])
                         popup
                             .setLngLat(event_coord[id])
-                            .setHTML(event_dates[id]+ "<br>" +event_names[id]
-                                                    + "<br>" + event_location[id])
+                            .setHTML("<h3>" + event_dates[id] + 
+                                     "</h3><h4>" + event_names[id] + 
+                                    "<br>" + event_location[id] + "</h4>")
                             .addTo(map);
 
                         filterBy(id);
@@ -206,7 +241,7 @@
                             clearInterval(idVar);
                         }
                         // popup.remove();
-                    }, 800);
+                    }, 1600);
                 }
             );
 
@@ -240,7 +275,5 @@
         // });
 
     </script>
-
 </body>
-
 </html>
