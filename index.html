@@ -60,9 +60,8 @@
         }
 
         .mapboxgl-popup {
-            padding-bottom: 50px;
+            padding-bottom: 10px;
         }
-
         .mapboxgl-popup-close-button {
             display: none;
         }
@@ -228,6 +227,7 @@
                         // document.getElementById('labellocation').textContent = event_location[id];
                         
                         // console.log(event_coord[id])
+
                         popup
                             .setLngLat(event_coord[id])
                             .setHTML("<h3>" + event_dates[id] + 
