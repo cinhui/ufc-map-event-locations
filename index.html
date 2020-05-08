@@ -119,11 +119,9 @@
             <!-- <input id="slider" type="range" min="0" max="27" step="1" value="0" /> display: none;">-->
         </div>
     </div>
-
-
     <div id="info-card" class="absolute bottom-0 left-0 mb-16 ml-16 rounded shadow-lg bg-white" style="max-width: 400px; "> 
         <div>
-            <img class="" src="http://via.placeholder.com/169x244?text=ImagePlaceholder"/>
+            <img id="event-poster" style="width:169; height:244px;" src="http://via.placeholder.com/169x244?text=ImagePlaceholder"/>
         </div>
     </div>
 
@@ -152,6 +150,7 @@
         var event_dates = [];
         var event_location = [];
         var event_coord = [];
+        var poster_url = [];
 
         function filterBy(id) {
             var filters = ['<=', 'filteroption', id];
@@ -175,7 +174,7 @@
                         event_dates.push(d.properties.date_formatted)
                         event_location.push(d.properties.Location)
                         event_coord.push(new mapboxgl.LngLat(d.geometry.coordinates[0], d.geometry.coordinates[1]))
-
+                        poster_url.push(d.properties.poster_url)
                         // console.log(d.properties.id + " " + d.properties.filteroption)
                         return d;
                     });
@@ -238,6 +237,12 @@
                         
                         // console.log(event_coord[id])
 
+                        if (poster_url[id]){
+                            document.getElementById('event-poster').src = poster_url[id];
+                        } else {
+                            document.getElementById('event-poster').src = "http://via.placeholder.com/169x244?text=ImagePlaceholder";
+                        }
+                        
                         popup
                             .setLngLat(event_coord[id])
                             .setHTML("<h3>" + event_dates[id] + 
