@@ -8,6 +8,8 @@
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet" />
     <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="style.css">
     <style>
         body {
@@ -114,9 +116,17 @@
             <!-- <h2 id="labeltext" class="labeltext"></h2>
             <h2 id="labeldate" class="labeltext"></h2>
             <h2 id="labellocation" class="labeltext"></h2> -->
-            <!-- <input id="slider" type="range" min="0" max="27" step="1" value="0" /> -->
+            <!-- <input id="slider" type="range" min="0" max="27" step="1" value="0" /> display: none;">-->
         </div>
     </div>
+
+
+    <div id="info-card" class="absolute bottom-0 left-0 mb-16 ml-16 rounded shadow-lg bg-white" style="max-width: 400px; "> 
+        <div>
+            <img class="" src="http://via.placeholder.com/169x244?text=ImagePlaceholder"/>
+        </div>
+    </div>
+
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoiY2luZHloMDMiLCJhIjoiY2p3aWxoNnd5MDNjaTN6cHU1dGV0aDZ2ZiJ9.Nmw-GO-snNFhkUp-RuohfQ';
         var map = new mapboxgl.Map({
