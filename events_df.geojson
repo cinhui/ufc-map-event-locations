@@ -797,7 +797,7 @@
         "coords": "[-90.050562,30.030061]",
         "date_formatted": "September 22, 2000",
         "Unnamed: 0": "30.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/4e/UFC_27_poster.jpg/220px-UFC_27_poster.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -1551,7 +1551,7 @@
         "coords": "[-115.1492,36.1663]",
         "date_formatted": "August 06, 2005",
         "Unnamed: 0": "59.0",
-        "poster_url": ""
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTBjMjJjMWEtYTc3Yi00YTIyLWEyMDMtMjg5NmIyYTFlMmJmXkEyXkFqcGdeQXVyNDczMDU5Nw@@._V1_.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -2201,7 +2201,7 @@
         "coords": "[-115.178946,36.0906785]",
         "date_formatted": "February 03, 2007",
         "Unnamed: 0": "84.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/8/81/UFC67.jpg/220px-UFC67.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -2253,7 +2253,7 @@
         "coords": "[-115.19508,36.11461]",
         "date_formatted": "April 05, 2007",
         "Unnamed: 0": "86.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Logo_of_the_Ultimate_Fighting_Championship.svg/176px-Logo_of_the_Ultimate_Fighting_Championship.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/b/bb/UFCFIGHTNIGHT9.jpg/220px-UFCFIGHTNIGHT9.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -3449,7 +3449,7 @@
         "coords": "[-115.178946,36.0906785]",
         "date_formatted": "July 11, 2009",
         "Unnamed: 0": "132.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/f/ff/UFC100lesnarmir.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -3709,7 +3709,7 @@
         "coords": "[-115.169513,36.102367]",
         "date_formatted": "January 02, 2010",
         "Unnamed: 0": "142.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/4/49/Ufc_108_poster.jpg/220px-Ufc_108_poster.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -4411,7 +4411,7 @@
         "coords": "[151.06224600000004,-33.844529]",
         "date_formatted": "February 27, 2011",
         "Unnamed: 0": "169.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/2/29/UFC_127_poster.jpg/220px-UFC_127_poster.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -4463,7 +4463,7 @@
         "coords": "[-74.171133,40.7336095]",
         "date_formatted": "March 19, 2011",
         "Unnamed: 0": "171.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/d/d4/UFC128ShogunvsJones.jpg/220px-UFC128ShogunvsJones.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -5685,7 +5685,7 @@
         "coords": "[103.0,35.0]",
         "date_formatted": "November 10, 2012",
         "Unnamed: 0": "218.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/e/ec/UFConFUEL6.jpg/220px-UFConFUEL6.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -8675,7 +8675,7 @@
         "coords": "[139.63084049999998,35.89474149999999]",
         "date_formatted": "September 27, 2015",
         "Unnamed: 0": "333.0",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/8/87/UFN_75_poster.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -12991,7 +12991,7 @@
         "coords": "[-73.99365162500001,40.750709125]",
         "date_formatted": "November 02, 2019",
         "Unnamed: 0": "499.0",
-        "poster_url": "https://upload.wikimedia.org/wikipedia/en/8/84/UFC_244_Poster.jpg"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png"
       },
       "geometry": {
         "type": "Point",
@@ -13448,18 +13448,18 @@
       "properties": {
         "id": "517",
         "Attendance": "Planned",
-        "Date": "2020-06-06",
-        "Event": "UFC 250: Nunes vs. Spencer",
+        "Date": "",
+        "Event": "",
         "Index": "",
         "Location": "Las Vegas, Nevada, U.S.",
         "Ref": "[14]",
         "Venue": "UFC APEX",
-        "wikipage": "https://en.wikipedia.org/wiki/UFC_250",
+        "wikipage": "",
         "Address": "UFC APEX, Las Vegas, Nevada, U.S.",
         "coords": "[-115.1492,36.1663]",
         "date_formatted": "June 06, 2020",
         "Unnamed: 0": "",
-        "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/UFC_250_official_poster.jpg"
+        "poster_url": ""
       },
       "geometry": {
         "type": "Point",
