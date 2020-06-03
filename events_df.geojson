@@ -12491,7 +12491,7 @@
         "Address": "Madison Square Garden, New York City, New York, U.S.",
         "coords": "[-73.99365162500001,40.750709125]",
         "date_formatted": "November 02, 2019",
-        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png"
+        "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/8/84/UFC_244_Poster.jpg/220px-UFC_244_Poster.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -12929,19 +12929,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "",
+        "id": "517.0",
         "Attendance": "Planned",
-        "Date": "",
-        "Event": "",
+        "Date": "2020-06-06",
+        "Event": "UFC 250: Nunes vs. Spencer",
         "Index": "",
         "Location": "Las Vegas, Nevada, U.S.",
         "Ref": "[14]",
         "Venue": "UFC APEX",
-        "wikipage": "",
+        "wikipage": "https://en.wikipedia.org/wiki/UFC_250",
         "Address": "UFC APEX, Las Vegas, Nevada, U.S.",
         "coords": "[-115.1492,36.1663]",
         "date_formatted": "June 06, 2020",
-        "poster_url": ""
+        "poster_url": "https://upload.wikimedia.org/wikipedia/en/d/db/UFC_250_official_poster.jpg"
       },
       "geometry": {
         "type": "Point",
