@@ -7384,20 +7384,20 @@
         "Event": "UFC Fight Night: Rockhold vs. Bisping",
         "wikipage": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Rockhold_vs._Bisping",
         "Date": "2014-11-08",
-        "Venue": "Ginásio Municipal Tancredo Neves",
-        "Location": "Uberlândia, Brazil",
-        "Attendance": "5,671",
-        "Ref": "[233]",
-        "Address": "Ginásio Municipal Tancredo Neves, Uberlândia, Brazil",
-        "coords": "[-48.255946,-18.911789000000002]",
+        "Venue": "Allphones Arena",
+        "Location": "Sydney, Australia",
+        "Attendance": "9,904",
+        "Ref": "[234]",
+        "Address": "Allphones Arena, Sydney, Australia",
+        "coords": "[151.06224600000004,-33.844529]",
         "date_formatted": "November 08, 2014",
         "poster_url": "http://upload.wikimedia.org/wikipedia/en/thumb/1/13/UFN_55_event_poster.jpg/220px-UFN_55_event_poster.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.255946,
-          -18.911789
+          151.06224600000004,
+          -33.844529
         ]
       }
     },
@@ -7409,20 +7409,20 @@
         "Event": "UFC Fight Night: Shogun vs. Saint Preux",
         "wikipage": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Shogun_vs._Saint_Preux",
         "Date": "2014-11-08",
-        "Venue": "Allphones Arena",
-        "Location": "Sydney, Australia",
-        "Attendance": "9,904",
-        "Ref": "[234]",
-        "Address": "Allphones Arena, Sydney, Australia",
-        "coords": "[151.06224600000004,-33.844529]",
+                "Venue": "Ginásio Municipal Tancredo Neves",
+        "Location": "Uberlândia, Brazil",
+        "Attendance": "5,671",
+        "Ref": "[233]",
+        "Address": "Ginásio Municipal Tancredo Neves, Uberlândia, Brazil",
+        "coords": "[-48.255946,-18.911789000000002]",
         "date_formatted": "November 08, 2014",
         "poster_url": "http://upload.wikimedia.org/wikipedia/en/9/9d/UFC_Fight_Night_56.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.06224600000004,
-          -33.844529
+          -48.255946,
+          -18.911789
         ]
       }
     },
