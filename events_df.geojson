@@ -6934,20 +6934,20 @@
         "Event": "UFC Fight Night: Swanson vs. Stephens",
         "wikipage": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Swanson_vs._Stephens",
         "Date": "2014-06-28",
-        "Venue": "Vector Arena",
-        "Location": "Auckland, New Zealand",
-        "Attendance": "8,089",
-        "Ref": "[252]",
-        "Address": "Vector Arena, Auckland, New Zealand",
-        "coords": "[174.776999,-36.847185]",
+                "Venue": "AT&T Center",
+        "Location": "San Antonio, Texas, U.S.",
+        "Attendance": "9,227",
+        "Ref": "[251]",
+        "Address": "AT&T Center, San Antonio, Texas, U.S.",
+        "coords": "[-98.43858825,29.42706925]",
         "date_formatted": "June 28, 2014",
         "poster_url": "http://upload.wikimedia.org/wikipedia/en/b/b6/UFN_44_poster.jpg"
-      },
+       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.776999,
-          -36.847184999999996
+          -98.43858825,
+          29.42706925
         ]
       }
     },
@@ -6959,20 +6959,20 @@
         "Event": "UFC Fight Night: Te Huna vs. Marquardt",
         "wikipage": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Te_Huna_vs._Marquardt",
         "Date": "2014-06-28",
-        "Venue": "AT&T Center",
-        "Location": "San Antonio, Texas, U.S.",
-        "Attendance": "9,227",
-        "Ref": "[251]",
-        "Address": "AT&T Center, San Antonio, Texas, U.S.",
-        "coords": "[-98.43858825,29.42706925]",
+        "Venue": "Vector Arena",
+        "Location": "Auckland, New Zealand",
+        "Attendance": "8,089",
+        "Ref": "[252]",
+        "Address": "Vector Arena, Auckland, New Zealand",
+        "coords": "[174.776999,-36.847185]",
         "date_formatted": "June 28, 2014",
         "poster_url": "http://upload.wikimedia.org/wikipedia/en/e/e8/UFC_Fight_Night%2C_Te_Huna_vs._Marquardt_%28poster%29.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.43858825,
-          29.42706925
+          174.776999,
+          -36.847184999999996
         ]
       }
     },
